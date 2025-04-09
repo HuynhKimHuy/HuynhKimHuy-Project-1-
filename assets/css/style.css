@@ -27,6 +27,8 @@ a{
     font-weight: 500;
     background-color: var(--primary-color);
     padding: 18px 16px; 
+    
+    
 
 }
 
@@ -65,6 +67,7 @@ a{
 }
 
 .navbar{
+
     display: flex;
     align-items: center;
     padding: 12px 0;
@@ -72,6 +75,7 @@ a{
 }
 
 .navbar ul {
+    
      display: flex;
      margin-left: 50px;
 }
@@ -298,7 +302,8 @@ a{
 
  .list{
     margin-top: 70px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     /* justify-content: space-around; */
     
     gap: 30px;
@@ -424,7 +429,7 @@ a{
     top: -10px;
 }
 
-.infor> .desc{
+.infor .desc{
     width: 309px;
     color: #5A6473;
     font-size: 1.6rem;
