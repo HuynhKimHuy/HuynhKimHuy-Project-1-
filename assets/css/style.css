@@ -320,6 +320,7 @@ a{
     height: 227px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    object-fit: cover;
 }
 
 .list .item .body{
